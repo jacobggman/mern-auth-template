@@ -1,7 +1,7 @@
 # MERN Auth Template
 
 
-Template for the MERN stack with user auth and heroku deploy support
+Template for the MERN stack with user auth using web token and heroku deploy support
 
 
 ## Installation
