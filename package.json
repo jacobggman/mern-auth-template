@@ -1,0 +1,32 @@
+{
+  "name": "speller-trainer",
+  "version": "1.0.0",
+  "description": "React and Node app that improves your spelling errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobggman/Speller-trainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobggman/Speller-trainer/issues"
+  },
+  "homepage": "https://github.com/jacobggman/Speller-trainer#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0"
+  }
+}
